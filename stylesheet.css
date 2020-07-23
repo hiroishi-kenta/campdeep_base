@@ -1,0 +1,312 @@
+/*ここから共通*/
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+  max-width: calc(1120px + (16px*2));
+  margin:0 auto;
+  height: 100%;
+}
+.container1{
+  max-width: 880px;
+  margin: auto;
+  height:100%;
+}
+h3{
+  padding-left: 16px;
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+.item-name{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+.explanation p{
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+.btn-more{
+  border: solid 1px #000000;
+  border-radius: 500px;
+  padding: 8px 32px;
+  color: #000;
+}
+/*ここまで共通*/
+
+/*ここからヘッダー*/
+header {
+  background-color: #CDC7AF;
+  position: absolute;
+  width: 100%;
+}
+.header-wrapper{
+  text-align: center;
+  padding-top: 16px;
+}
+.header-logo{
+  padding-bottom: 2px;
+  padding-top: 0px;
+}
+.header-menu ul {
+  list-style: none;
+  display: inline-block;
+}
+.header-menu li{
+  float: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  font-weight: 400;
+}
+/* ここまでヘッダー*/
+
+/* ここからトップ*/
+.top-wrapper{
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("image/top_image.jpg");
+  background-size:cover;
+  padding-bottom: 40px;
+  display: inline-block;
+}
+.top-image{
+  padding-top: 230px;
+  padding-bottom: 48px;
+  width: 100%;
+  text-align: center;
+}
+.top-image img{
+  margin: 0 auto;
+}
+.btn-wrapper{
+  text-align: center;
+}
+.btn_cv{
+  display: inline-block;
+  border: solid 4px black;
+  border-bottom: solid 8px black;
+  padding: 15px 65px 15px 65px;
+  background-color: #DFA945;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+a{
+  text-decoration: none;
+}
+/* ここまでトップ*/
+
+/* ここからコンセプト*/
+.consept-wrapper{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #CDC7AF;
+}
+.consept-box{
+  display: inline-block;
+  width:100%;
+  height: 100%;
+}
+.text-consept{
+  width:63%;
+  display: inline-block;
+  padding-right: 7%;
+  float: left;
+}
+.maincopy{
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 40px;
+}
+
+.text-consept .btn-more {
+  float: right;
+}
+.text-consept,p{
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.image-consept{
+  display: inline-block;
+  width: 37%;
+  height: 100%;
+  float: left;
+}
+.image-consept img{
+  display: inline-block;
+  width: 100%;
+}
+/* ここまでコンセプト*/
+
+/* ここからサービス詳細*/
+.detail-wrapper{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #F4EED4;
+}
+.contents{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+.content{
+  width: calc(100% / 4);
+  display: flex;
+  align-items: center;
+}
+.content-box{
+width: 100%;
+}
+.content-box p{
+  text-align: center;
+}
+.content-box img{
+  padding-bottom: 16px;
+}
+.red img{
+  width: 100%;
+}
+.green img{
+    width: 100%;
+}
+.blue img{
+  width: 100%;
+}
+.detail-btn-box{
+  display:flex;
+  justify-content: center;
+}
+/* ここまでサービス詳細*/
+
+/* ここから利用料金*/
+.fee-wrapper{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #CDC7AF;
+}
+.fee-table{
+  padding-bottom: 24px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 8px;
+  background-color: #F4EED4;
+}
+th{
+  padding: 16px 32px;
+  margin: 0px;
+  border:solid 1px #000000;
+  text-align: center;
+  width: 30%;
+}
+td{
+  padding: 16px 32px;
+  border:solid 1px #000000;
+  text-align: center;
+  width: 70%;
+}
+/* ここまで利用料金*/
+
+/* ここからアクセス*/
+.access-wrapper{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F4EED4;
+}
+.block{
+  display:inline-block;
+  width: 100%;
+}
+.left-block{
+  display: inline-block;
+  width: 40%;
+  float: left;
+  padding-right: 16px;
+}
+.left-block p{
+  padding-bottom: 2px;
+}
+.right-block{
+  display: inline-block;
+  width: 60%;
+  float: left;
+  padding-left: 16px;
+}
+.access-left-image{
+  background-image: url("image/access-tokyo.jpeg");
+  background-size: cover;
+  width: 100%;
+  height:200px;
+  margin-bottom: 8px;
+}
+.access-right-image{
+  background-image: url("image/access-map.jpg");
+  background-size: cover;
+  width: 100%;
+  height:300px;
+  border: solid 1px #000;
+}
+/* ここまでアクセス*/
+
+/* ここから入会方法*/
+.join-wrapper{
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("image/join-image.jpeg");
+  background-size:cover;
+}
+.join-wrapper h3{
+  text-align: left;
+}
+.join-wrapper .maincopy{
+  padding-bottom: 8px;
+}
+.join-wrapper .explanation{
+  padding-bottom: 32px;
+}
+.join-wrapper .btn-wrapper{
+  margin-bottom: 32px;
+}
+/* ここまで入会方法*/
+
+/* ここからフッター*/
+footer{
+  text-align: center;
+  border-top: solid 1px #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #CDC7AF;
+}
+.footer-menu{
+  padding-top: 24px;
+}
+.footer-menu ul{
+  list-style: none;
+  display: inline-block;
+}
+.footer-menu li{
+  float: left;
+  padding:0px 8px;
+}
+.footer-logo{
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.footer-explanation{
+  font-size: 10px;
+}
+/* ここまでフッター*/
